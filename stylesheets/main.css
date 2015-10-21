@@ -5739,6 +5739,7 @@ body {
   color: antiquewhite !important; }
 
 .fontLogo {
-  float: left; }
+  float: right;
+  right: 430px; }
 
 /*# sourceMappingURL=main.css.map */
