@@ -14,6 +14,8 @@
   $step: 30;  // amount to add to theta each time (degrees)
   $r: 40;
   $i: 0;
+  $timeInc: 1;
+
 
   .fontLogo {
       position: relative;
@@ -38,8 +40,13 @@
           left: #{$x}px;
           transform: rotate(($i+8)*30deg);
 
+          -webkit-animation-delay: #{$timeInc}s;
+          -moz-animation-delay: #{$timeInc}s;
+          animation-delay: #{$timeInc}s;        
+
           $theta: $theta + $step;
           $i: $i + 1;
+          $timeInc: $timeInc + 0.35; 
       }
   }
 
@@ -73,34 +80,4 @@
   -webkit-animation-duration:1s;
   -moz-animation-duration:1s;
   animation-duration:1s;
-}
-
-.fade-in.one {
--webkit-animation-delay: 0.7s;
--moz-animation-delay: 0.7s;
-animation-delay: 0.7s;
-}
-
-.fade-in.two {
--webkit-animation-delay: 1.2s;
--moz-animation-delay:1.2s;
-animation-delay: 1.2s;
-}
-
-.fade-in.three {
--webkit-animation-delay: 1.6s;
--moz-animation-delay: 1.6s;
-animation-delay: 1.6s;
-}
-
-/*---make a basic box ---*/
-.box{
-
-  width: 200px;
-height: 200px;
-position: relative;
-margin: 10px;
-float: left;
-border: 1px solid #333;
-background: #999;
 }

@@ -5648,92 +5648,146 @@ body {
 .fontLogo div.pos-0 {
   top: 150.01781px;
   left: 109.92684px;
-  transform: rotate(240deg); }
+  transform: rotate(240deg);
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s; }
 
 .fontLogo div.pos-1 {
   top: 130.00169px;
   left: 115.35064px;
-  transform: rotate(270deg); }
+  transform: rotate(270deg);
+  -webkit-animation-delay: 1.35s;
+  -moz-animation-delay: 1.35s;
+  animation-delay: 1.35s; }
 
 .fontLogo div.pos-2 {
   top: 115.35908px;
   left: 129.99942px;
-  transform: rotate(300deg); }
+  transform: rotate(300deg);
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s; }
 
 .fontLogo div.pos-3 {
   top: 110.0px;
   left: 149.99998px;
-  transform: rotate(330deg); }
+  transform: rotate(330deg);
+  -webkit-animation-delay: 2.05s;
+  -moz-animation-delay: 2.05s;
+  animation-delay: 2.05s; }
 
 .fontLogo div.pos-4 {
   top: 115.35898px;
   left: 170.0px;
-  transform: rotate(360deg); }
+  transform: rotate(360deg);
+  -webkit-animation-delay: 2.4s;
+  -moz-animation-delay: 2.4s;
+  animation-delay: 2.4s; }
 
 .fontLogo div.pos-5 {
   top: 130.0px;
   left: 184.64102px;
-  transform: rotate(390deg); }
+  transform: rotate(390deg);
+  -webkit-animation-delay: 2.75s;
+  -moz-animation-delay: 2.75s;
+  animation-delay: 2.75s; }
 
 .fontLogo div.pos-6 {
   top: 150px;
   left: 190px;
-  transform: rotate(420deg); }
+  transform: rotate(420deg);
+  -webkit-animation-delay: 3.1s;
+  -moz-animation-delay: 3.1s;
+  animation-delay: 3.1s; }
 
 .fontLogo div.pos-7 {
   top: 170.0px;
   left: 184.64102px;
-  transform: rotate(450deg); }
+  transform: rotate(450deg);
+  -webkit-animation-delay: 3.45s;
+  -moz-animation-delay: 3.45s;
+  animation-delay: 3.45s; }
 
 .fontLogo div.pos-8 {
   top: 184.64102px;
   left: 170.0px;
-  transform: rotate(480deg); }
+  transform: rotate(480deg);
+  -webkit-animation-delay: 3.8s;
+  -moz-animation-delay: 3.8s;
+  animation-delay: 3.8s; }
 
 .fontLogo div.pos-9 {
   top: 190.0px;
   left: 149.99998px;
-  transform: rotate(510deg); }
+  transform: rotate(510deg);
+  -webkit-animation-delay: 4.15s;
+  -moz-animation-delay: 4.15s;
+  animation-delay: 4.15s; }
 
 .fontLogo div.pos-10 {
   top: 184.64092px;
   left: 129.99942px;
-  transform: rotate(540deg); }
+  transform: rotate(540deg);
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s; }
 
 .fontLogo div.pos-11 {
   top: 169.99831px;
   left: 115.35064px;
-  transform: rotate(570deg); }
+  transform: rotate(570deg);
+  -webkit-animation-delay: 4.85s;
+  -moz-animation-delay: 4.85s;
+  animation-delay: 4.85s; }
 
 .fontLogo div.pos-12 {
   top: 149.98219px;
   left: 109.92684px;
-  transform: rotate(600deg); }
+  transform: rotate(600deg);
+  -webkit-animation-delay: 5.2s;
+  -moz-animation-delay: 5.2s;
+  animation-delay: 5.2s; }
 
 .fontLogo div.pos-13 {
   top: 129.87006px;
   left: 114.90249px;
-  transform: rotate(630deg); }
+  transform: rotate(630deg);
+  -webkit-animation-delay: 5.55s;
+  -moz-animation-delay: 5.55s;
+  animation-delay: 5.55s; }
 
 .fontLogo div.pos-14 {
   top: 114.63545px;
   left: 127.78206px;
-  transform: rotate(660deg); }
+  transform: rotate(660deg);
+  -webkit-animation-delay: 5.9s;
+  -moz-animation-delay: 5.9s;
+  animation-delay: 5.9s; }
 
 .fontLogo div.pos-15 {
   top: 106.72439px;
   left: 141.10236px;
-  transform: rotate(690deg); }
+  transform: rotate(690deg);
+  -webkit-animation-delay: 6.25s;
+  -moz-animation-delay: 6.25s;
+  animation-delay: 6.25s; }
 
 .fontLogo div.pos-16 {
   top: 102.7685px;
   left: 139.32457px;
-  transform: rotate(720deg); }
+  transform: rotate(720deg);
+  -webkit-animation-delay: 6.6s;
+  -moz-animation-delay: 6.6s;
+  animation-delay: 6.6s; }
 
 .fontLogo div.pos-17 {
   top: 87.62131px;
   left: 91.11918px;
-  transform: rotate(750deg); }
+  transform: rotate(750deg);
+  -webkit-animation-delay: 6.95s;
+  -moz-animation-delay: 6.95s;
+  animation-delay: 6.95s; }
 
 .fontLogo div.pos-4 {
   color: antiquewhite !important; }
@@ -5773,30 +5827,5 @@ body {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   animation-duration: 1s; }
-
-.fade-in.one {
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s; }
-
-.fade-in.two {
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay: 1.2s;
-  animation-delay: 1.2s; }
-
-.fade-in.three {
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s; }
-
-/*---make a basic box ---*/
-.box {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  margin: 10px;
-  float: left;
-  border: 1px solid #333;
-  background: #999; }
 
 /*# sourceMappingURL=main.css.map */
