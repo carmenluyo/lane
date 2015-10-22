@@ -12,7 +12,7 @@
   $k: 150;      // y coordinate of circle center
 
   $step: 30;  // amount to add to theta each time (degrees)
-  $r: 70;
+  $r: 40;
   $i: 0;
 
   .fontLogo {
@@ -21,7 +21,7 @@
 
       div {
         position: absolute;
-        font-size: 95px;
+        font-size: 52px;
         font-family: 'Geo579Normal';
         color: #85764e;
     }
