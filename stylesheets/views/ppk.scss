@@ -8,24 +8,29 @@
 @import "trig.scss";
 
   $theta: -180;  // angle that will be increased each loop
-  $h: 150;      // x coordinate of circle center
-  $k: 150;      // y coordinate of circle center
+  $h: 40;      // x coordinate of circle center
+  $k: 40;      // y coordinate of circle center
 
   $step: 30;  // amount to add to theta each time (degrees)
   $r: 40;
   $i: 0;
   $timeInc: 0;
+  $fontSize: 50;
 
 
   .fontLogo {
       position: relative;
-      height: $h*2px;
+      height: #{$r*2 + $fontSize}px;
+      width: #{$r*2 + $fontSize}px;
 
       div {
         position: absolute;
-        font-size: 52px;
+        font-size: #{$fontSize}px;
         font-family: 'Geo579Normal';
         color: #85764e;
+        /* width: #{$fontSize}px;
+        height: #{$fontSize}px; 
+        background-color:green;*/
     }
   }
 
@@ -53,11 +58,6 @@
   .fontLogo div.pos-4 {
       color: antiquewhite !important;
   }
-.fontLogo{
-  float: right;
-  top: -82px;
-  right: 317px;
-}
 
 
 

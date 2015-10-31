@@ -5541,40 +5541,22 @@ body {
 .landing {
   width: 100%;
   background-color: black;
-  height: 100%;
-  margin: 0px;
-  padding: 0px; }
+  height: 100%; }
 
 .margen {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin: auto;
+  position: relative;
   border-left: 3px solid #E8D8BF;
-  border-bottom: 3px solid #E8D8BF;
-  width: 98%;
-  height: 96%;
-  margin-left: 2%; }
+  border-bottom: 3px solid #E8D8BF; }
 
-.the {
-  display: inline-block;
-  font-size: 45px;
+.fontLogoWrapper {
+  top: 0px;
+  right: 0px;
   position: absolute;
-  margin-left: -60px;
-  color: #E8D8BF;
-  letter-spacing: 0px; }
-
-.l_circle {
-  color: white;
-  text-align: right;
-  font-size: 50px;
-  padding-top: 6%;
-  padding-right: 6%; }
-
-.hotel {
-  font-size: 100px;
-  letter-spacing: 10px; }
-
-.hotels_2 {
-  font-size: 40px;
-  letter-spacing: 8px;
-  color: #E0AF59; }
+  /*background-color: yellow;
+  border: 1px solid red;*/ }
 
 .contact {
   border: 1px solid gray;
@@ -5584,16 +5566,14 @@ body {
   opacity: 0.50; }
 
 .cuadro_contact {
-  padding-top: 5%;
+  padding-top: 9%;
   color: gray; }
 
 .text {
+  width: 100%;
   color: white;
   text-align: center;
-  padding-top: 13%;
-  font-family: 'Geo579Normal';
-  font-size: 21px;
-  text-align: center;
+  padding-top: 15%;
   -webkit-animation: fadein 5s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 5s;
@@ -5645,157 +5625,189 @@ body {
     opacity: 0; }
   to {
     opacity: 1; } }
+.parrafo_1 {
+  padding-top: 6%;
+  text-align: center;
+  /*prueba*/
+  position: absolute;
+  width: 100%; }
+
+.parrafo_white {
+  display: inline-block;
+  color: white; }
+
+.parrafo_small {
+  text-align: center;
+  color: #85764e;
+  font-size: 25px; }
+
+#d1 {
+  display: none;
+  position: absolute; }
+
+#d2 {
+  display: none;
+  position: absolute; }
+
+#d3 {
+  display: none;
+  position: absolute; }
+
 @font-face {
   font-family: 'Geo579Normal';
   src: url("../fonts/Geo579/Geo579Normal.ttf"); }
 .fontLogo {
   position: relative;
-  height: 300px; }
+  height: 130px;
+  width: 130px; }
   .fontLogo div {
     position: absolute;
-    font-size: 52px;
+    font-size: 50px;
     font-family: 'Geo579Normal';
-    color: #85764e; }
+    color: #85764e;
+    /* width: 50px;
+    height: 50px; 
+    background-color:green;*/ }
 
 .fontLogo div.pos-0 {
-  top: 150.01781px;
-  left: 109.92684px;
+  top: 40.01781px;
+  left: -0.07316px;
   transform: rotate(240deg);
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   animation-delay: 0s; }
 
 .fontLogo div.pos-1 {
-  top: 130.00169px;
-  left: 115.35064px;
+  top: 20.00169px;
+  left: 5.35064px;
   transform: rotate(270deg);
   -webkit-animation-delay: 0.35s;
   -moz-animation-delay: 0.35s;
   animation-delay: 0.35s; }
 
 .fontLogo div.pos-2 {
-  top: 115.35908px;
-  left: 129.99942px;
+  top: 5.35908px;
+  left: 19.99942px;
   transform: rotate(300deg);
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
   animation-delay: 0.7s; }
 
 .fontLogo div.pos-3 {
-  top: 110.0px;
-  left: 149.99998px;
+  top: 0.0px;
+  left: 39.99998px;
   transform: rotate(330deg);
   -webkit-animation-delay: 1.05s;
   -moz-animation-delay: 1.05s;
   animation-delay: 1.05s; }
 
 .fontLogo div.pos-4 {
-  top: 115.35898px;
-  left: 170.0px;
+  top: 5.35898px;
+  left: 60.0px;
   transform: rotate(360deg);
   -webkit-animation-delay: 1.4s;
   -moz-animation-delay: 1.4s;
   animation-delay: 1.4s; }
 
 .fontLogo div.pos-5 {
-  top: 130.0px;
-  left: 184.64102px;
+  top: 20.0px;
+  left: 74.64102px;
   transform: rotate(390deg);
   -webkit-animation-delay: 1.75s;
   -moz-animation-delay: 1.75s;
   animation-delay: 1.75s; }
 
 .fontLogo div.pos-6 {
-  top: 150px;
-  left: 190px;
+  top: 40px;
+  left: 80px;
   transform: rotate(420deg);
   -webkit-animation-delay: 2.1s;
   -moz-animation-delay: 2.1s;
   animation-delay: 2.1s; }
 
 .fontLogo div.pos-7 {
-  top: 170.0px;
-  left: 184.64102px;
+  top: 60.0px;
+  left: 74.64102px;
   transform: rotate(450deg);
   -webkit-animation-delay: 2.45s;
   -moz-animation-delay: 2.45s;
   animation-delay: 2.45s; }
 
 .fontLogo div.pos-8 {
-  top: 184.64102px;
-  left: 170.0px;
+  top: 74.64102px;
+  left: 60.0px;
   transform: rotate(480deg);
   -webkit-animation-delay: 2.8s;
   -moz-animation-delay: 2.8s;
   animation-delay: 2.8s; }
 
 .fontLogo div.pos-9 {
-  top: 190.0px;
-  left: 149.99998px;
+  top: 80.0px;
+  left: 39.99998px;
   transform: rotate(510deg);
   -webkit-animation-delay: 3.15s;
   -moz-animation-delay: 3.15s;
   animation-delay: 3.15s; }
 
 .fontLogo div.pos-10 {
-  top: 184.64092px;
-  left: 129.99942px;
+  top: 74.64092px;
+  left: 19.99942px;
   transform: rotate(540deg);
   -webkit-animation-delay: 3.5s;
   -moz-animation-delay: 3.5s;
   animation-delay: 3.5s; }
 
 .fontLogo div.pos-11 {
-  top: 169.99831px;
-  left: 115.35064px;
+  top: 59.99831px;
+  left: 5.35064px;
   transform: rotate(570deg);
   -webkit-animation-delay: 3.85s;
   -moz-animation-delay: 3.85s;
   animation-delay: 3.85s; }
 
 .fontLogo div.pos-12 {
-  top: 149.98219px;
-  left: 109.92684px;
+  top: 39.98219px;
+  left: -0.07316px;
   transform: rotate(600deg);
   -webkit-animation-delay: 4.2s;
   -moz-animation-delay: 4.2s;
   animation-delay: 4.2s; }
 
 .fontLogo div.pos-13 {
-  top: 129.87006px;
-  left: 114.90249px;
+  top: 19.87006px;
+  left: 4.90249px;
   transform: rotate(630deg);
   -webkit-animation-delay: 4.55s;
   -moz-animation-delay: 4.55s;
   animation-delay: 4.55s; }
 
 .fontLogo div.pos-14 {
-  top: 114.63545px;
-  left: 127.78206px;
+  top: 4.63545px;
+  left: 17.78206px;
   transform: rotate(660deg);
   -webkit-animation-delay: 4.9s;
   -moz-animation-delay: 4.9s;
   animation-delay: 4.9s; }
 
 .fontLogo div.pos-15 {
-  top: 106.72439px;
-  left: 141.10236px;
+  top: -3.27561px;
+  left: 31.10236px;
   transform: rotate(690deg);
   -webkit-animation-delay: 5.25s;
   -moz-animation-delay: 5.25s;
   animation-delay: 5.25s; }
 
 .fontLogo div.pos-16 {
-  top: 102.7685px;
-  left: 139.32457px;
+  top: -7.2315px;
+  left: 29.32457px;
   transform: rotate(720deg);
   -webkit-animation-delay: 5.6s;
   -moz-animation-delay: 5.6s;
   animation-delay: 5.6s; }
 
 .fontLogo div.pos-17 {
-  top: 87.62131px;
-  left: 91.11918px;
+  top: -22.37869px;
+  left: -18.88082px;
   transform: rotate(750deg);
   -webkit-animation-delay: 5.95s;
   -moz-animation-delay: 5.95s;
@@ -5803,11 +5815,6 @@ body {
 
 .fontLogo div.pos-4 {
   color: antiquewhite !important; }
-
-.fontLogo {
-  float: right;
-  top: -82px;
-  right: 317px; }
 
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {
