@@ -1,8 +1,8 @@
 jQuery(function() {
         
     setTimeout(function() {
-        jQuery('#d1').fadeIn(500);
-    }, 1000);
+        jQuery('#d1').fadeIn(0);
+    }, 0);
     
     
 
